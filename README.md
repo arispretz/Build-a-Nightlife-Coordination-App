@@ -1,6 +1,6 @@
 # Build-a-Nightlife-Coordination-App
 
-This is one of my projects in the way to achieve "Legacy Backend" certification at freeCodeCamp.org. It was designed using HTML, CSS, JavaScript and Express.
+This is one of my projects in the way to achieve "Legacy Back End" certification at freeCodeCamp.org. It was designed using HTML, CSS, JavaScript and Express.
 
 User Story: As an unauthenticated user, you can view all bars in your area.
 
