@@ -9,11 +9,11 @@ document.addEventListener('DOMContentLoaded', () => {
     searchBtn.addEventListener('click', async () => {
   const location = locationInput.value;
   if (location) {
-    const token = localStorage.getItem('token'); // Obtén el token del almacenamiento local
+    const token = localStorage.getItem('token'); 
     try {
       const response = await fetch(`http://localhost:5000/api/bars?location=${location}`, {
         headers: {
-          'Authorization': `Bearer ${token}` // Incluye el token aquí
+          'Authorization': `Bearer ${token}` 
         }
       });
 
@@ -40,7 +40,6 @@ document.addEventListener('DOMContentLoaded', () => {
       barsList.appendChild(barItem);
     });
 
-    // Añadir evento a los botones de asistencia después de que se hayan creado
     document.querySelectorAll('.attendBtn').forEach(button => {
       button.addEventListener('click', async () => {
         const barId = button.getAttribute('data-id');
